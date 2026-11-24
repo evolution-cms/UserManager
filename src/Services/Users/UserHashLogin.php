@@ -44,12 +44,6 @@ class UserHashLogin extends UserLogin
     public $user;
 
     /**
-     * @var
-     */
-    private $userSettings;
-
-
-    /**
      * @return \Illuminate\Database\Eloquent\Model
      * @throws ServiceActionException
      * @throws ServiceValidationException
